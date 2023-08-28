@@ -56,7 +56,7 @@ const displayPhoneDetails = (phone) => {
     <p class="text-sm text-[#706F6F] mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
     <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Storage: </span>${phone.mainFeatures.storage}</p>
     <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Display size: </span>${phone.mainFeatures.displaySize}</p>
-    <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Chipset: </span>${phone.mainFeatures.chipSet}</p>
+    <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">ChipSet: </span>${phone.mainFeatures.chipSet}</p>
     <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Memory: </span>${phone.mainFeatures.memory}</p>
     <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Slug: </span>${phone.slug}</p>
     <p class="text-sm text-[#706F6F] mt-4"><span class="text-[#403F3F] font-bold">Release date: </span>${phone?.releaseDate}</p>
